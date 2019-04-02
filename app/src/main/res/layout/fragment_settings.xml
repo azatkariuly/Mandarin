@@ -1,0 +1,78 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zerotoone.n17r.mandarin.FragmentMainActivity.SettingsFragment">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/imageSettings"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/chinese"
+        android:layout_marginTop="16dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome"
+        android:id="@+id/welcomeSettings"
+        android:layout_below="@id/imageSettings"
+        android:layout_centerHorizontal="true"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:id="@+id/emailSettings"
+        android:layout_marginTop="16dp"
+        android:textSize="18sp"
+        android:text="Email"
+        android:layout_below="@+id/welcomeSettings"
+        android:layout_marginLeft="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/hello_blank_fragment"
+        android:textSize="18sp"
+        android:textColor="#3ccfcf"
+        android:id="@+id/settingsTxt"
+        android:layout_alignBaseline="@+id/emailSettings"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Words per Day"
+        android:layout_alignParentLeft="true"
+        android:textSize="18sp"
+        android:id="@+id/wordsSettings"
+        android:layout_below="@+id/emailSettings"
+        android:layout_marginLeft="8dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="5 words"
+        android:textColor="#3ccfcf"
+        android:layout_alignParentRight="true"
+        android:layout_alignBaseline="@+id/wordsSettings"
+        android:layout_marginRight="8dp"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Log Out"
+        android:id="@+id/btn_LogOut"
+        android:background="#3ccfcf"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#fff"
+        android:layout_alignParentBottom="true"/>
+
+
+
+</RelativeLayout>

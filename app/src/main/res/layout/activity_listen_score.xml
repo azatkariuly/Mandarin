@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.zerotoone.n17r.mandarin.Memrise.ListenScoreActivity">
+
+    <TextView
+        android:id="@+id/totalNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="80dp"
+        android:text="5"
+        android:textSize="35sp"/>
+
+    <TextView
+        android:id="@+id/correctNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:textSize="35sp"
+        android:text="1" />
+
+    <TextView
+        android:id="@+id/wrongNum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="50dp"
+        android:layout_marginTop="80dp"
+        android:textSize="35sp"
+        android:text="0" />
+
+
+    <TextView
+        android:id="@+id/totalTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/totalNum"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="16dp"
+        android:text="Questions"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/correctTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/correctNum"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp"
+        android:text="Correct"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/wrongTxt"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/wrongNum"
+        android:layout_marginRight="34dp"
+        android:layout_marginTop="16dp"
+        android:text="Wrong"
+        android:textSize="18sp" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Try Again"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginBottom="8dp"
+        android:textColor="#fff"
+        android:background="#3ccfcf"
+        android:id="@+id/tryAgainBtn"/>
+
+</RelativeLayout>

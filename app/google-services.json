@@ -1,0 +1,105 @@
+{
+  "project_info": {
+    "project_number": "494773009195",
+    "firebase_url": "https://mandarin-f0406.firebaseio.com",
+    "project_id": "mandarin-f0406",
+    "storage_bucket": "mandarin-f0406.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494773009195:android:c592cfa29fc347a0",
+        "android_client_info": {
+          "package_name": "com.zerotoone.n17r.mandarinwords"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494773009195-rbbn07d52nnal1qomjfqh42dpk2tgeig.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zerotoone.n17r.mandarinwords",
+            "certificate_hash": "b40520b2717a75ac6e5146420b8acd618165dff7"
+          }
+        },
+        {
+          "client_id": "494773009195-4gs88728gbd372kkd9tmcu2mtnl1tsi5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqhicX0QCtEnJUSKoFfbfYzFV1XtRF1yo"
+        },
+        {
+          "current_key": "AIzaSyDQoaExcsRXc1XxnmXGOaWxBce1YdJ0vCE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494773009195-4gs88728gbd372kkd9tmcu2mtnl1tsi5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:494773009195:android:4ab6e4c122248254",
+        "android_client_info": {
+          "package_name": "com.zerotoone.n17r.mandarin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "494773009195-3gio3h6eraggq5ajd46jdrif4p5iqmj5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.zerotoone.n17r.mandarin",
+            "certificate_hash": "b40520b2717a75ac6e5146420b8acd618165dff7"
+          }
+        },
+        {
+          "client_id": "494773009195-4gs88728gbd372kkd9tmcu2mtnl1tsi5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCqhicX0QCtEnJUSKoFfbfYzFV1XtRF1yo"
+        },
+        {
+          "current_key": "AIzaSyDQoaExcsRXc1XxnmXGOaWxBce1YdJ0vCE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "494773009195-4gs88728gbd372kkd9tmcu2mtnl1tsi5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
