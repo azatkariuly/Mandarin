@@ -1,7 +1,7 @@
 # Mandarin
 Mandarin Application on Play Market
 
-<img src="https://user-images.githubusercontent.com/40741967/223964005-55243f69-41c3-4dcb-83af-91b80150cf7b.jpeg" width="250" height="350">
+<img src="https://user-images.githubusercontent.com/40741967/223964005-55243f69-41c3-4dcb-83af-91b80150cf7b.jpeg" width="250" height="450">
 
 ![screen-0](https://user-images.githubusercontent.com/40741967/223964005-55243f69-41c3-4dcb-83af-91b80150cf7b.jpeg)
 ![screen-1](https://user-images.githubusercontent.com/40741967/223964017-9ce3fa45-f222-4e9c-82d5-7368e0fdb3e4.jpeg)
